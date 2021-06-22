@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:background="@color/valuexcolorxgreen"
+    >
+
+    <RelativeLayout
+        android:id="@+id/infoContainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="@dimen/browserxuixdpx16"
+        android:paddingTop="@dimen/browserxuixdpx40"
+        android:paddingRight="@dimen/browserxuixdpx16"
+        android:paddingBottom="@dimen/browserxuixdpx8"
+        tools:background="@color/valuexcolorxred"
+        >
+
+        <com.townspriter.android.photobrowser.ui.view.framework.widget.BrowserIndicateView
+            android:id="@+id/indicateView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:background="@color/valuexcolorxyellow"
+            />
+
+        <TextView
+            android:id="@+id/infoTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/indicateView"
+            android:layout_marginTop="@dimen/browserxuixdpx8"
+            android:ellipsize="end"
+            android:lineSpacingMultiplier="1.3"
+            android:maxLines="2"
+            android:textColor="@color/valuexcolorxwhite"
+            android:textSize="@dimen/browserxuixdpx16"
+            android:textStyle="bold"
+            tools:background="@color/valuexcolorxblue"
+            tools:text="标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题"
+            />
+
+        <com.townspriter.android.photobrowser.ui.view.framework.BrowserTextView
+            android:id="@+id/infoDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/infoTitle"
+            android:layout_marginTop="@dimen/browserxuixdpx2"
+            android:lineSpacingExtra="@dimen/browserxuixdpx4"
+            android:maxLines="10"
+            android:scrollbars="vertical"
+            android:textColor="@color/valuexcolorxwhitex75"
+            android:textSize="@dimen/browserxuixdpx14"
+            tools:background="@color/valuexcolorxblack"
+            tools:text="可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/testFiveLineHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:lineSpacingExtra="@dimen/browserxuixdpx4"
+        android:text="@string/browserUIFiveLineHeight"
+        android:textSize="@dimen/browserxuixdpx14"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>

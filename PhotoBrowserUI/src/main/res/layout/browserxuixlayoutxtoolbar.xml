@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/browserxuixdpx53"
+    tools:background="@color/browserxuixcolorxred"
+    >
+
+    <include
+        android:id="@+id/normalBottomLayout"
+        layout="@layout/browserxuixlayoutxbottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/browserxuixdpx53"
+        android:layout_alignParentBottom="true"
+        />
+
+    <LinearLayout
+        android:id="@+id/realToolbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/browserxuixdpx53"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:paddingRight="6dp"
+        tools:background="@color/browserxuixcolorxblue"
+        >
+
+        <LinearLayout
+            android:id="@+id/toolbarCommentEditLayout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/browserxuixdpx32"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/browserxuixdpx16"
+            android:layout_marginEnd="@dimen/browserxuixdpx12"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:background="@drawable/browserxuixtoolbarxcommentxeditxback"
+            tools:visibility="visible"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/browserxuixdpx16"
+                android:gravity="center_vertical"
+                android:text="@string/browserUIToolbarCommentInfo"
+                android:textColor="@color/valuexcolorxwhitex75"
+                android:textSize="14dp"
+                />
+
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/toolbarCommentLayout"
+            android:layout_width="@dimen/browserxuixdpx53"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/browserxuixdpx10"
+            android:layout_toLeftOf="@+id/toolbarFavoriteIcon"
+            >
+
+            <ImageView
+                android:id="@+id/browserxToolbarxCommentxIcon"
+                style="@style/PhotoBrowserUIToolbarIconStyle"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                />
+
+            <TextView
+                android:id="@+id/toolbarCommentNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/browserxuixdpx13"
+                android:layout_gravity="end|top"
+                android:layout_marginTop="10.5dp"
+                android:layout_marginEnd="@dimen/browserxuixdpx4"
+                android:paddingStart="@dimen/browserxuixdpx3"
+                android:paddingEnd="@dimen/browserxuixdpx3"
+                android:textColor="@color/valuexcolorxred"
+                android:background="@drawable/browserxuixtoolbarxcommentxcountxback"
+                android:textSize="@dimen/browserxuixdpx10"
+                android:visibility="invisible"
+                tools:text="23"
+                tools:visibility="visible"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintHorizontal_bias="0.86"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/toolbarFavoriteIcon"
+            style="@style/PhotoBrowserUIToolbarIconStyle"
+            android:layout_toLeftOf="@+id/toolbarShareIcon"
+            />
+
+        <ImageView
+            android:id="@+id/toolbarShareIcon"
+            style="@style/PhotoBrowserUIToolbarIconStyle"
+            android:layout_alignParentRight="true"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

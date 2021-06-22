@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="browserxuixdpx1">1dp</dimen>
+    <dimen name="browserxuixdpx2">2dp</dimen>
+    <dimen name="browserxuixdpx3">3dp</dimen>
+    <dimen name="browserxuixdpx4">4dp</dimen>
+    <dimen name="browserxuixdpx6">6dp</dimen>
+    <dimen name="browserxuixdpx8">8dp</dimen>
+    <dimen name="browserxuixdpx10">10dp</dimen>
+    <dimen name="browserxuixdpx12">12dp</dimen>
+    <dimen name="browserxuixdpx13">13dp</dimen>
+    <dimen name="browserxuixdpx14">14dp</dimen>
+    <dimen name="browserxuixdpx16">16dp</dimen>
+    <dimen name="browserxuixdpx18">18dp</dimen>
+    <dimen name="browserxuixdpx20">20dp</dimen>
+    <dimen name="browserxuixdpx22">22dp</dimen>
+    <dimen name="browserxuixdpx24">24dp</dimen>
+    <dimen name="browserxuixdpx28">28dp</dimen>
+    <dimen name="browserxuixdpx32">32dp</dimen>
+    <dimen name="browserxuixdpx40">40dp</dimen>
+    <dimen name="browserxuixdpx44">44dp</dimen>
+    <dimen name="browserxuixdpx53">53dp</dimen>
+    <dimen name="browserxuixdpx56">56dp</dimen>
+    <dimen name="browserxuixdpx58">58dp</dimen>
+    <dimen name="browserxuixdpx80">80dp</dimen>
+
+</resources>

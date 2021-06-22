@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="PhotoBrowserUIToolbarIconStyle">
+        <item name="android:layout_width">@dimen/browserxuixdpx53</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/browserxuixdpx14</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+</resources>

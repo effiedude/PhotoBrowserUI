@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="browserUISavePicSucceed">保存到相册成功</string>
+    <string name="browserUISavePicFailed">保存到相册失败</string>
+    <string name="browserUILoadingText">图片加载中</string>
+    <string name="browserUIPhotoLoadFail">图片加载失败</string>
+    <string name="browserUIPhotoLoadRetry">点击重试</string>
+    <string name="browserUINetworkError">网络不给力\n内容加载失败请检查网络</string>
+    <string name="browserUINetworkLoadRetry">刷新</string>
+    <string name="browserUIPhotoOffline">内容已下线</string>
+    <string name="browserUIShowSource">来源：</string>
+    <string name="browserUICreatorName">作者：</string>
+    <string name="browserUIEditorsName">责任编辑：</string>
+    <string name="browserUIToolbarCommentInfo">我来说两句</string>
+    <string name="browserUIFiveLineHeight">文字\n文字\n文字\n文字\n文字</string>
+
+</resources>
