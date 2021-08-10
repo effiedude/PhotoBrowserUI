@@ -17,10 +17,14 @@ allprojects
     {
         google()
         jcenter()
+
         maven
         {
-            url'https://jitpack.io'
-            credentials{ username 'jp_nsqeiq0rjdvafvgo4l1270qu1e'}
+            url MAVENxREPOxRELEASExURL
+        }
+        maven
+        {
+            url MAVENxREPOxSNAPSHOTxURL
         }
     }
 }

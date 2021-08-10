@@ -9,14 +9,12 @@
 
         <activity
             android:name="com.townspriter.android.photobrowser.ui.view.present.BaseActivity"
-            android:screenOrientation="landscape"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
             >
         </activity>
 
         <activity
             android:name="com.townspriter.android.photobrowser.ui.view.present.PhotoBrowserActivity"
-            android:screenOrientation="landscape"
             android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
             >
@@ -24,7 +22,6 @@
 
         <activity
             android:name="com.townspriter.android.photobrowser.ui.view.present.PhotoBrowserArticleActivity"
-            android:screenOrientation="landscape"
             android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
             >

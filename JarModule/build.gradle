@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply from:'tools.gradle'
 
 group 'com.townspriter.android.photobrowser'
 ext.artifactId='ui'
@@ -58,9 +59,13 @@ dependencies
     //implementation project(':Foundation')
     //implementation project(':PhotoBrowserCore')
 
-    implementation 'com.github.effiedude:Value:1.0.1'
-    implementation 'com.github.effiedude:Foundation:1.0.0'
-    implementation 'com.github.effiedude:PhotoBrowserCore:1.0.1'
+    //implementation 'com.github.effiedude:Value:1.0.1'
+    //implementation 'com.github.effiedude:Foundation:1.0.0'
+    //implementation 'com.github.effiedude:PhotoBrowserCore:1.0.1'
+
+    implementation 'com.personedu.base:CommonRes:1.0.0'
+    implementation 'com.personedu.base:Foundation:1.0.6'
+    implementation 'com.personedu.browser:Core:1.0.0-SNAPSHOT'
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
