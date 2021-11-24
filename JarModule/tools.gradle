@@ -1,5 +1,11 @@
 apply plugin: 'maven'
 
+ext.versionCode='1.0.0'
+ext.artifactId='UI'
+ext.groupId='com.townspriter.browser'
+ext.packaging='aar'
+ext.description='图片浏览器业务模块'
+
 uploadArchives
 {
     configuration=configurations.archives
@@ -7,7 +13,7 @@ uploadArchives
     {
         mavenDeployer
         {
-            if(VERSIONxNAME.contains('SNAPSHOT'))
+            if(versionCode.contains('SNAPSHOT'))
             {
                 repository(url:MAVENxREPOxSNAPSHOTxURL)
                 {
@@ -24,11 +30,11 @@ uploadArchives
 
             pom.project
             {
-                version VERSIONxNAME
-                artifactId 'UI'
-                groupId 'com.personedu.browser'
-                packaging TYPE
-                description '图片浏览器业务模块'
+                version versionCode
+                artifactId artifactId
+                groupId groupId
+                packaging packaging
+                description description
             }
         }
     }

@@ -17,14 +17,13 @@ allprojects
     {
         google()
         jcenter()
-
         maven
         {
-            url MAVENxREPOxRELEASExURL
+            url MAVENxREPOxPUBLICxURL
         }
         maven
         {
-            url MAVENxREPOxSNAPSHOTxURL
+            url GITxREPOxPUBLICxURL
         }
     }
 }

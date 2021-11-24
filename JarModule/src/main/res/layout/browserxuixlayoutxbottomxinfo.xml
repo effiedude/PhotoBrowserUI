@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:background="@color/valuexcolorxgreen"
+    tools:background="@color/resxcolorxgreen"
     >
 
     <RelativeLayout
@@ -16,14 +16,14 @@
         android:paddingTop="@dimen/browserxuixdpx40"
         android:paddingRight="@dimen/browserxuixdpx16"
         android:paddingBottom="@dimen/browserxuixdpx8"
-        tools:background="@color/valuexcolorxred"
+        tools:background="@color/resxcolorxred"
         >
 
-        <com.townspriter.android.photobrowser.ui.view.framework.widget.BrowserIndicateView
+        <com.townspriter.photobrowser.ui.view.framework.widget.BrowserIndicateView
             android:id="@+id/indicateView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:background="@color/valuexcolorxyellow"
+            tools:background="@color/resxcolorxyellow"
             />
 
         <TextView
@@ -35,14 +35,14 @@
             android:ellipsize="end"
             android:lineSpacingMultiplier="1.3"
             android:maxLines="2"
-            android:textColor="@color/valuexcolorxwhite"
+            android:textColor="@color/resxcolorxwhite"
             android:textSize="@dimen/browserxuixdpx16"
             android:textStyle="bold"
-            tools:background="@color/valuexcolorxblue"
+            tools:background="@color/resxcolorxblue"
             tools:text="标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题"
             />
 
-        <com.townspriter.android.photobrowser.ui.view.framework.BrowserTextView
+        <com.townspriter.photobrowser.ui.view.framework.BrowserTextView
             android:id="@+id/infoDetail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -51,9 +51,9 @@
             android:lineSpacingExtra="@dimen/browserxuixdpx4"
             android:maxLines="10"
             android:scrollbars="vertical"
-            android:textColor="@color/valuexcolorxwhitex75"
+            android:textColor="@color/resxcolorxwhitex75"
             android:textSize="@dimen/browserxuixdpx14"
-            tools:background="@color/valuexcolorxblack"
+            tools:background="@color/resxcolorxblack"
             tools:text="可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容可滑动内容"
             />
 

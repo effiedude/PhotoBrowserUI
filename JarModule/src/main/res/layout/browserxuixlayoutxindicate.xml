@@ -12,7 +12,7 @@
         android:id="@+id/indicateLeftText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/valuexcolorxwhite"
+        android:textColor="@color/resxcolorxwhite"
         android:textSize="@dimen/browserxuixdpx28"
         android:textStyle="bold"
         tools:text="1"
@@ -24,7 +24,7 @@
         android:layout_height="@dimen/browserxuixdpx22"
         android:layout_gravity="center_vertical"
         android:layout_marginStart="@dimen/browserxuixdpx6"
-        android:background="@color/valuexcolorxwhitex50"
+        android:background="@color/resxcolorxwhitex50"
         android:visibility="gone"
         />
 
@@ -33,7 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/browserxuixdpx4"
-        android:textColor="@color/valuexcolorxwhitex50"
+        android:textColor="@color/resxcolorxwhitex50"
         android:textSize="@dimen/browserxuixdpx16"
         android:textStyle="bold"
         tools:text="9"

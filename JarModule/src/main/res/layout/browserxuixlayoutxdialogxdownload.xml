@@ -26,7 +26,7 @@
             android:gravity="center"
             android:text="保存图片到相册"
             android:textSize="16dp"
-            android:textColor="@color/valuexcolorxblack"
+            android:textColor="@color/resxcolorxblack"
             android:textStyle="bold"
             />
 
@@ -40,7 +40,7 @@
             android:gravity="center"
             android:text="确认"
             android:textSize="16dp"
-            android:textColor="@color/valuexcolorxwhite"
+            android:textColor="@color/resxcolorxwhite"
             android:textStyle="bold"
             android:background="@drawable/browserxuixdrawablexbuttonxback"
             />
@@ -55,7 +55,7 @@
             android:gravity="center"
             android:text="取消"
             android:textSize="16dp"
-            android:textColor="@color/valuexcolorxwhite"
+            android:textColor="@color/resxcolorxwhite"
             android:textStyle="bold"
             android:background="@drawable/browserxuixdrawablexbuttonxback"
             />

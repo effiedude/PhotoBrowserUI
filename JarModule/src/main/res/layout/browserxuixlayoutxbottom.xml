@@ -7,7 +7,7 @@
     tools:background="@color/valuexcolorxgreen"
     >
 
-    <com.townspriter.android.photobrowser.ui.view.framework.widget.BrowserIndicateView
+    <com.townspriter.photobrowser.ui.view.framework.widget.BrowserIndicateView
         android:id="@+id/indicateView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -27,8 +27,8 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="12dp"
         android:src="@drawable/browserxuixiconxsave"
-        android:tint="@color/valuexcolorxwhite"
-        tools:background="@color/valuexcolorxyellow"
+        android:tint="@color/resxcolorxwhite"
+        tools:background="@color/resxcolorxyellow"
         />
 
 </RelativeLayout>
