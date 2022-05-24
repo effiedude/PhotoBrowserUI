@@ -15,14 +15,14 @@ uploadArchives
         {
             if(versionCode.contains('SNAPSHOT'))
             {
-                repository(url:MAVENxREPOxSNAPSHOTxURL)
+                repository(url:LOCALxREPOxSNAPSHOTxURL)
                 {
                     authentication(userName:NEXUSxUSERNAME,password:NEXUSxPASSWORD)
                 }
             }
             else
             {
-                repository(url:MAVENxREPOxRELEASExURL)
+                repository(url:LOCALxREPOxRELEASExURL)
                 {
                     authentication(userName:NEXUSxUSERNAME,password:NEXUSxPASSWORD)
                 }

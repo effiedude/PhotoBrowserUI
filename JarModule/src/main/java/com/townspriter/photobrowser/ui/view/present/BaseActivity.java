@@ -225,7 +225,7 @@ public abstract class BaseActivity extends FragmentActivity
         mPhotoBrowser.bindData(photoViewData);
     }
     
-    protected void bindView(IPhotoBrowserOverlay overlay,UICallback callback)
+    protected void bindView(IPhotoBrowserOverlay overlay, UICallback callback)
     {
         mPhotoBrowser.bindView(overlay,callback);
     }
