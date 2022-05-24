@@ -35,7 +35,7 @@ public class TopBar extends FrameLayout
     public TopBar(Context context)
     {
         super(context);
-        GradientDrawable gradientDrawable=new GradientDrawable(GradientDrawable.Orientation.BOTTOM_TOP,new int[]{ResHelper.getColor(R.color.resxcolorxtranslate),ResHelper.getColor(R.integer.resxintegerxalphax60,R.color.resxcolorxblack),});
+        GradientDrawable gradientDrawable=new GradientDrawable(GradientDrawable.Orientation.BOTTOM_TOP,new int[]{ResHelper.getColor(R.color.uixcolorxtranslate),ResHelper.getColor(R.integer.uixintegerxalphax60,R.color.uixcolorxblack),});
         if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.JELLY_BEAN)
         {
             setBackground(gradientDrawable);
@@ -131,7 +131,7 @@ public class TopBar extends FrameLayout
         mTitle=new TextView(getContext());
         mTitle.setText(title);
         mTitle.setTextSize(TypedValue.COMPLEX_UNIT_PX,ResHelper.getDimenInt(R.dimen.browserxuixdpx16));
-        mTitle.setTextColor(ResHelper.getColor(R.color.resxcolorxred));
+        mTitle.setTextColor(ResHelper.getColor(R.color.uixcolorxred));
         mTitle.setMaxLines(1);
         titleLayout.addView(mTitle);
         LayoutParams titleLayoutParams=new LayoutParams(LayoutParams.WRAP_CONTENT,LayoutParams.WRAP_CONTENT);

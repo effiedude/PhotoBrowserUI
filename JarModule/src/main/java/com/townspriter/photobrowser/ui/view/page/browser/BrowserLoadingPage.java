@@ -38,7 +38,7 @@ public class BrowserLoadingPage extends RelativeLayout
     
     private void initView()
     {
-        setBackgroundColor(ResHelper.getColor(R.color.resxcolorxblack));
+        setBackgroundColor(ResHelper.getColor(R.color.uixcolorxblack));
         RelativeLayout innerLayout=new RelativeLayout(getContext());
         innerLayout.setTranslationY(-ResHelper.getDimenInt(R.dimen.browserxuixdpx80));
         LayoutParams innerLayoutParams=new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,ViewGroup.LayoutParams.MATCH_PARENT);
@@ -54,7 +54,7 @@ public class BrowserLoadingPage extends RelativeLayout
         innerLayout.addView(mLoadingAnimationView,animationLayoutParams);
         TextView tipView=new TextView(getContext());
         tipView.setTextSize(ResHelper.getDimenInt(R.dimen.browserxuixdpx16));
-        tipView.setTextColor(ResHelper.getColor(R.color.resxcolorxwhitex50));
+        tipView.setTextColor(ResHelper.getColor(R.color.uixcolorxwhitexalphax50));
         tipView.setText(R.string.browserUILoadingText);
         LayoutParams layoutParams=new LayoutParams(LayoutParams.WRAP_CONTENT,LayoutParams.WRAP_CONTENT);
         layoutParams.addRule(RelativeLayout.CENTER_HORIZONTAL);

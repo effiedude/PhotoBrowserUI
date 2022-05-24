@@ -82,7 +82,7 @@ public class PhotoNetworkErrorPage extends RelativeLayout implements GestureDete
     
     private void initView()
     {
-        setBackgroundColor(ResHelper.getColor(R.color.resxcolorxblack));
+        setBackgroundColor(ResHelper.getColor(R.color.uixcolorxblack));
         setClickable(true);
         setOnTouchListener(this);
         mGestureDetector=new GestureDetector(new GestureDetector.SimpleOnGestureListener());
@@ -106,7 +106,7 @@ public class PhotoNetworkErrorPage extends RelativeLayout implements GestureDete
         errorTextParams.topMargin=ResHelper.getDimenInt(R.dimen.browserxuixdpx16);
         errorText.setText(ResHelper.getString(R.string.browserUINetworkError));
         errorText.setTextSize(ResHelper.getDimenInt(R.dimen.browserxuixdpx16));
-        errorText.setTextColor(ResHelper.getColor(R.color.resxcolorxwhitex50));
+        errorText.setTextColor(ResHelper.getColor(R.color.uixcolorxwhitexalphax50));
         innerLayout.addView(errorText,errorTextParams);
         LinearLayout mReloadLayout=new LinearLayout(getContext());
         mReloadLayout.setOnClickListener(new OnClickListener()
@@ -131,12 +131,11 @@ public class PhotoNetworkErrorPage extends RelativeLayout implements GestureDete
         ImageView reloadImage=new ImageView(getContext());
         LayoutParams reloadImageParams=new LayoutParams(ResHelper.getDimenInt(R.dimen.browserxuixdpx13),ResHelper.getDimenInt(R.dimen.browserxuixdpx13));
         reloadImage.setLayoutParams(reloadImageParams);
-        reloadImage.setColorFilter(ResHelper.getColor(R.color.resxcolorxwhite),Mode.SRC_IN);
-        // reloadImage.setImageResource(R.drawable.iconxrefresh);
+        reloadImage.setColorFilter(ResHelper.getColor(R.color.uixcolorxwhite),Mode.SRC_IN);
         TextView reloadText=new TextView(getContext());
         reloadText.setText(ResHelper.getString(R.string.browserUINetworkLoadRetry));
         reloadText.setTextSize(ResHelper.getDimenInt(R.dimen.browserxuixdpx14));
-        reloadText.setTextColor(ResHelper.getColor(R.color.resxcolorxwhite));
+        reloadText.setTextColor(ResHelper.getColor(R.color.uixcolorxwhite));
         mReloadLayout.addView(reloadImage);
         mReloadLayout.addView(reloadText);
     }

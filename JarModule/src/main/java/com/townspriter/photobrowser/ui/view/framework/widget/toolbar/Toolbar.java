@@ -241,11 +241,11 @@ public class Toolbar
     {
         if(alpha)
         {
-            mRealToolbarLayout.setBackgroundColor(ResHelper.getColor(R.integer.resxintegerxalphax75,R.color.resxcolorxblack));
+            mRealToolbarLayout.setBackgroundColor(ResHelper.getColor(R.integer.uixintegerxalphax75,R.color.uixcolorxblack));
         }
         else
         {
-            mRealToolbarLayout.setBackgroundColor(ResHelper.getColor(R.integer.resxintegerxalphax60,R.color.resxcolorxblack));
+            mRealToolbarLayout.setBackgroundColor(ResHelper.getColor(R.integer.uixintegerxalphax60,R.color.uixcolorxblack));
         }
     }
     

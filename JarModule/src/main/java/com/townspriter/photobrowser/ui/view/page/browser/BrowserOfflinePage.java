@@ -50,7 +50,7 @@ public class BrowserOfflinePage extends RelativeLayout
     private void initView()
     {
         setTranslationY(SystemInfo.INSTANCE.getStatusBarHeight());
-        setBackgroundColor(ResHelper.getColor(R.color.resxcolorxblack));
+        setBackgroundColor(ResHelper.getColor(R.color.uixcolorxblack));
         addView(createBackView());
         addView(createInfoView());
     }
@@ -60,7 +60,7 @@ public class BrowserOfflinePage extends RelativeLayout
         TextView infoText=new TextView(getContext());
         infoText.setText(ResHelper.getString(R.string.browserUIPhotoOffline));
         infoText.setTextSize(ResHelper.getDimenInt(R.dimen.browserxuixdpx16));
-        infoText.setTextColor(ResHelper.getColor(R.color.resxcolorxwhitex50));
+        infoText.setTextColor(ResHelper.getColor(R.color.uixcolorxwhitexalphax50));
         LayoutParams infoTextParams=new LayoutParams(LayoutParams.WRAP_CONTENT,LayoutParams.WRAP_CONTENT);
         infoTextParams.addRule(RelativeLayout.CENTER_IN_PARENT,RelativeLayout.TRUE);
         infoText.setLayoutParams(infoTextParams);

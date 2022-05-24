@@ -137,12 +137,11 @@ public class BrowserLoadFailPage extends RelativeLayout implements GestureDetect
         ImageView reloadImage=new ImageView(getContext());
         LayoutParams reloadImageParams=new LayoutParams(ResHelper.getDimenInt(R.dimen.browserxuixdpx13),ResHelper.getDimenInt(R.dimen.browserxuixdpx13));
         reloadImage.setLayoutParams(reloadImageParams);
-        reloadImage.setColorFilter(ResHelper.getColor(R.color.resxcolorxwhite),Mode.SRC_IN);
-        // reloadImage.setImageResource(R.drawable.iconxrefresh);
+        reloadImage.setColorFilter(ResHelper.getColor(R.color.uixcolorxwhite),Mode.SRC_IN);
         TextView reloadText=new TextView(getContext());
         reloadText.setText(ResHelper.getString(R.string.browserUIPhotoLoadRetry));
         reloadText.setTextSize(ResHelper.getDimenInt(R.dimen.browserxuixdpx14));
-        reloadText.setTextColor(ResHelper.getColor(R.color.resxcolorxwhite));
+        reloadText.setTextColor(ResHelper.getColor(R.color.uixcolorxwhite));
         mReloadLayout.addView(reloadImage);
         mReloadLayout.addView(reloadText);
     }

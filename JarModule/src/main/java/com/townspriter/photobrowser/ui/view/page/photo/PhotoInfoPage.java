@@ -506,11 +506,11 @@ public class PhotoInfoPage extends MaxSizeFrameLayout
         }
         if(alpha)
         {
-            setBackgroundColor(ResHelper.getColor(R.integer.resxintegerxalphax75,R.color.resxcolorxblack));
+            setBackgroundColor(ResHelper.getColor(R.integer.uixintegerxalphax75,R.color.uixcolorxblack));
         }
         else
         {
-            GradientDrawable gradientDrawable=new GradientDrawable(GradientDrawable.Orientation.TOP_BOTTOM,new int[]{ResHelper.getColor(R.color.resxcolorxtranslate),ResHelper.getColor(R.integer.resxintegerxalphax60,R.color.resxcolorxblack),});
+            GradientDrawable gradientDrawable=new GradientDrawable(GradientDrawable.Orientation.TOP_BOTTOM,new int[]{ResHelper.getColor(R.color.uixcolorxtranslate),ResHelper.getColor(R.integer.uixintegerxalphax60,R.color.uixcolorxblack),});
             if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.JELLY_BEAN)
             {
                 setBackground(gradientDrawable);
